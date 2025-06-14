@@ -13,3 +13,7 @@
 7) Three parts of Function creation Declaration, Definition and calling, most casses declaration and defination go hand in hand and one thing to notice is that we can also declare function just like variables.
 
 8) Including math functions use "#include <cmath>".  
+
+9) Something to add on point 7 while declaration we dont need to give variable names just DATATYPES.
+
+10) 
