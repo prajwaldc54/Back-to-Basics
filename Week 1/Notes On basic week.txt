@@ -1,0 +1,15 @@
+1) Manipulators: endl.
+ 
+2) Object: cin, cout.
+
+3) Naming Conventions and core c++ guidelines on this link: https://github.com/isocpp/CppCoreGuidelines.
+
+4) Name of a name is known as an identifier.
+
+5) Function easier to write a reusable code.
+
+6) My confusion part parameters and arguments so i get it now, parameters when defining the function and argumments when calling them.
+
+7) Three parts of Function creation Declaration, Definition and calling, most casses declaration and defination go hand in hand and one thing to notice is that we can also declare function just like variables.
+
+8) Including math functions use "#include <cmath>".  
