@@ -19,3 +19,5 @@
 10) Void function probably doesnt return anything on my initial understanding it is used to clean the main and as shown in my my program this void function only does one thing.
 
 11) the new line endl instead we can use the standard /n inside this " ". 
+
+12) C++ is a static type programming language basically whatever you give the variable type it stays with it till the compile time.

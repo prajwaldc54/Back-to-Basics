@@ -1,0 +1,8 @@
+1) Various kinds of data types every variable is associated with a data type and the calculations are done accordingly 
+for eg: a int a/b 
+where a = 5, b = 2 is 2, which is not true mathematically but according to the int type its true. 
+2) A quick look into memory and data types and how there is difference in memory for data types and a look into binary bits for a better understanding
+3) Also quick review on signed bit and unsigned bit also a little bonus tip about the sign bit which bit is usually reserved as a signed bit. 
+4) Primary integral data type: 
+    short, int, long, long long and unsigned goes along basically unsigned for all positive values.
+5) Another quick tip that lets us know the memory of the integral type is by including climits at top which is used to show memory space for signed and unsigned integral types.
