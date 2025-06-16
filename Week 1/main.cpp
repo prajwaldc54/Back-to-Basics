@@ -18,6 +18,8 @@ int main () {
     cout << "Whats the power you wanna add on the number of pizza slices: "<< std::endl;
     cin >> exponents_slices;
     print_stuff(slices,exponents_slices); // Using the void function that is to print the output
+    print_stuff(10,2);
+    print_stuff(10,3);
     return 0;
 }
 
