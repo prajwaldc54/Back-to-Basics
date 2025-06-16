@@ -16,4 +16,6 @@
 
 9) Something to add on point 7 while declaration we dont need to give variable names just DATATYPES.
 
-10) 
+10) Void function probably doesnt return anything on my initial understanding it is used to clean the main and as shown in my my program this void function only does one thing.
+
+11) the new line endl instead we can use the standard /n inside this " ". 
