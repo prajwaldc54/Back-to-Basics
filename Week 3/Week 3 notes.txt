@@ -1,0 +1,1 @@
+1) Looked into some of the numeric functions from cmath STL library some built in function like pow we used during our week 1.
