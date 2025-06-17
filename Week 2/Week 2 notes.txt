@@ -6,3 +6,20 @@ where a = 5, b = 2 is 2, which is not true mathematically but according to the i
 4) Primary integral data type: 
     short, int, long, long long and unsigned goes along basically unsigned for all positive values.
 5) Another quick tip that lets us know the memory of the integral type is by including climits at top which is used to show memory space for signed and unsigned integral types.
+6) Another data type "char" basically a character where we use this for a variable to store a character.
+7) Also learned more about relation of characters and ASCII values where "A" is 65 and "a" is 97.
+8) More on the information type casting. 
+9) Escape sequences are used to cover or update something in the string or while doing a cout 
+    for eg: '\n' : most common one it is used to go to a new line.
+            '\v' : a cool one for vertical tab.
+            '\t' : for a tab.
+            '\"\"': Might seem confusing but it is basically used for using double quotes.
+            ''' or '\'\'': For single quotes both way possible. 
+            '\b': to delete something.
+            '\\': for a backslacsh in the string.
+            '\a': For alert beep.
+10) Bool data type basic true or false logic driven data type. In a standard print it gives either 0(false) or 1(true) or it to make it print true or false we use a manipulator
+    known as "boolalpha" or if statements.
+11) Floating point numbers the most commonly used is float but it isnt precise for more precision we use double and for even more precision we use long double but for better 
+    implementation we can use external libraries available in c++. 
+12) Use of Const and constant values better use enum class rather than marcos or maybe const, using const is ok but dont use macros.
