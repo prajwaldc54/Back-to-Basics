@@ -1,1 +1,8 @@
 1) Looked into some of the numeric functions from cmath STL library some built in function like pow we used during our week 1.
+2) Moving forward we look into strings and string literals and there are two ways to deffine a string in c++ 
+   a) Using string class (The best option)
+   b) Using c-style string (Array of char)
+3) String class uses namespace so obviously use std and we can change as well as has various member functions so we can get its
+   length, size and what not. Also in c++ just defining a string means it has an empty space.
+4) Input for string is another tricky part using cin only lets user to get input till the white space or the tab but using getinline()
+   function is the best way to get input for any string. 
