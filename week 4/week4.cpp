@@ -24,18 +24,18 @@ int main (){
     //     cout << "Hard Luck! Try guessing me again" << endl;
     // }
 
-    enum day {
+    enum class Day {
         Monday,
         Tuesday,
         Friday
     };
-    day guess_day = Tuesday;
+    Day guess_day = Day::Tuesday;
     switch (guess_day)
     {
-    case Monday:
+    case Day::Monday:
         break;
 
-    case Tuesday:
+    case Day::Tuesday:
         cout << "Good answer";
         break;
     

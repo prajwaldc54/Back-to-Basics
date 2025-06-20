@@ -1,2 +1,6 @@
 1) Conditional flow and use of if basic stuff and use of return -1 
 2) Working with switch makes us more conciouss on what enum is and how we use enums and enum class in switch conditions.
+3) Use of string in integer type and char type is common we get to find out that switch isnt compatible with string type.
+4) Used enums and enum class in switch for better understanding how it is compatible with switch and better understanding
+   of class scope while using enum class.
+   
