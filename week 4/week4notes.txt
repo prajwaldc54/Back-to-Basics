@@ -1,1 +1,2 @@
 1) Conditional flow and use of if basic stuff and use of return -1 
+2) Working with switch makes us more conciouss on what enum is and how we use enums and enum class in switch conditions.
