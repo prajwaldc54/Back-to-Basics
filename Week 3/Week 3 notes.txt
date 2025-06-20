@@ -6,3 +6,8 @@
    length, size and what not. Also in c++ just defining a string means it has an empty space.
 4) Input for string is another tricky part using cin only lets user to get input till the white space or the tab but using getinline()
    function is the best way to get input for any string. 
+5) Get the ideology on dot compare and "==" compare what does it return, ".compare()" returns a 0 so while using a conditional statement
+   we can use it as reference where "==" gives good output.
+6) Might wanna look for universal language type stuff as in unicode_t_32 type stuff helps you devlop program for every language, and also 
+   watch on the hexadecimal conversion as well as octal conversion. 
+7) Looked up some operator precendence stuff as well and that should do it for the week. 

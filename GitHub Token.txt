@@ -1,2 +1,0 @@
-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
-git remote set-url origin https://prajwaldc54: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@github.com/prajwaldc54/back-to-basics.git
