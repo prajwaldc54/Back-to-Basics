@@ -24,18 +24,19 @@ int main (){
     //     cout << "Hard Luck! Try guessing me again" << endl;
     // }
 
-    int age = 14;
-    int guess_age;
-    cout << "Guess my age: " << endl;
-    cin>> guess_age;
-    switch (guess_age)
+    enum day {
+        Monday,
+        Tuesday,
+        Friday
+    };
+    day guess_day = Tuesday;
+    switch (guess_day)
     {
-    case 13:
-        cout << "So close just one higher";
+    case Monday:
         break;
 
-    case 14:
-        cout << "So close just one lower";
+    case Tuesday:
+        cout << "Good answer";
         break;
     
     default:
