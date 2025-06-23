@@ -1,0 +1,1 @@
+1) Creating a new console based application to get more familiar with conditional statements and is a good practice for it.
