@@ -3,3 +3,9 @@
 3) Understood about seed and wy is it important for example: 
     while creating a random number and guessing it without the use of i could easily guess the random number generated at 
     first to be 42 in other hand using seed helped generating new numbers based on time.
+4) Got to about passing the size of arrays to a function, calculating size of array is the total size divided by the size 
+   of the data type. 
+5) cin.clear() and cin.ignore() some important functions to keep in mind. Where, cin.clear() is used to clear the state of 
+    the cin as in if we typed anything gibrish to end the program execution the state of cin is set to error and resets the
+    state. where as ignore is used to ignore the last input. 
+6) Taking input in an array and outputing in an array both is done in loops. 

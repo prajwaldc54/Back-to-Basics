@@ -6,45 +6,37 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void play_game(){
-    int random = rand() % 99 + 1;
-    while (true){
-    cout << "Guess the random number generated: \n";
-    int guess;
-    cin >> guess;
-    if (guess == random)
+void print_array (int ar[], int size){
+    for (int i = 0; i < size; i++)
     {
-        cout << "You got it brother!!!" << endl;
-        break;
-    }else if (guess > random) {
-        cout << "Its a lower value than you guessed" << endl;
-    } else if (guess < 0){
-        cout << "Invalid input only positive numbers" << endl;
-    } else {
-        cout << "Its a higher value than you guessed" << endl;
+        cout << ar[i] << "\t";
     }
     
-    }
 }
 
 int main (){
-    srand(time(0));
-    cout << "Welcome to my console-based application.\n";
-     int choice;
-     do
-     {
-            cout << "Press 0 to exit or 1 to Play game:\n";
-            cin>>choice;
-            switch (choice)
-                {
-                    case 0:
-                        cout << "Thanks for playing\n";
-                        break;
-                    case 1: 
-                        play_game();
-                        break;
+    int const size = 50;
+    int arr [size];
+    int count = 0;
+    for (int i = 0; i < size; i++)
+    {
+        if (cin >> arr[i])
+        {
+            count ++; 
+        } else {
+            break;
+        }
+        
+        
     }
-     } while (choice != 0);
-     
+    cin.clear(); // reset the cin to further use after using character to end the cin
+    cin.ignore(1000,'\n'); // ignoring the last stored value in cin so that we can re-utilize cin again
+
+    print_array (arr, count);
+    
+    std::string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << name << endl;
 
 }
