@@ -7,3 +7,7 @@
 6) Into the loops basic three loop types : for, while and do while.
 7) The ICU pattern which is initialization, condition and update both while and for loop follow this pattern where as do while
    at least prints something first. 
+8) Inside of the curly brackets after do are where we keep the type of code we want to generate it frequently and while is the
+   part where comparison happens and we should also keep the scope in mind.
+9) Break and Continue are the key factors to alter the flow of loop, as the name suggests break is used to stop and exit a loop
+   when a certain condition is meet or fullfilled. While continue is used to skip that part if the condition is meet. 
