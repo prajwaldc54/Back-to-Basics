@@ -1,8 +1,8 @@
 #include <iostream>
-#include <string.h>
+#include <string>
 using std::cout;
 using std::cin;
-// using std::string;
+using std::string;
 using std::endl;
 
 int main (){
@@ -28,19 +28,14 @@ int main (){
     // };
     // cout << "The factorial of " << fact << " is: " << factorial << endl;
 
-    int factorial;
-    cout << "Enter any number you want factorial of: ";
-    cin >> factorial;
-    int fact = factorial;
-    int i =1;
+    string pass = "Nepal123";
+    string guess_pass;
     do
-    {
-        factorial *=i;
-        i ++;
-    } while (i < fact);
-    
-    cout << "The factorial of " << fact << " is: " << factorial << endl;
+    {   
+         cout << "Enter my Password: \n";
+         std::getline(cin, guess_pass);
+    } while (guess_pass != pass);
+    cout << "Booyay you got it right.\n";
 
-    
     return 0; 
 }
