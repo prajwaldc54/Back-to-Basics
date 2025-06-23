@@ -1,1 +1,5 @@
 1) Creating a new console based application to get more familiar with conditional statements and is a good practice for it.
+2) After menu is created used random number generator to make the application more intresting my trying to guess numbers.
+3) Understood about seed and wy is it important for example: 
+    while creating a random number and guessing it without the use of i could easily guess the random number generated at 
+    first to be 42 in other hand using seed helped generating new numbers based on time.
