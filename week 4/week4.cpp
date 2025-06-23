@@ -7,16 +7,15 @@ using std::endl;
 
 int main (){
     int arr[5] = {100,70,89,-5,35};
-    bool found = false;
-    for (int i = 0; i < sizeof(arr); i++)
+    int length = sizeof(arr) / sizeof(arr[5]);
+    for (int i = 0; i < length; i++)
     {   
-        cout << arr[i] << " \n";
         if (arr[i] < 0)
         {
-            cout << "There is an invalild marks! Please check\n";
-            break;
+            continue;
         }
         
+          cout << arr[i] << " \n";
     }
     return 0; 
 }
