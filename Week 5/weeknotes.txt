@@ -9,3 +9,5 @@
     the cin as in if we typed anything gibrish to end the program execution the state of cin is set to error and resets the
     state. where as ignore is used to ignore the last input. 
 6) Taking input in an array and outputing in an array both is done in loops. 
+7) Added a sized array depending on the range of the random number generated to store the guesses and also counted the numbers
+   and also counted the number of guesses or trys. 
