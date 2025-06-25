@@ -11,3 +11,8 @@
 6) Taking input in an array and outputing in an array both is done in loops. 
 7) Added a sized array depending on the range of the random number generated to store the guesses and also counted the numbers
    and also counted the number of guesses or trys. 
+8) Into vectors, the most exciting part of C++ where we can allocte memory dynamically better than array and also has additional
+   methods that helps.
+9) Vector is pretty simple just need to be wary of some the methods then we are good. 
+10) Passing vectors to a functions is the most tricky part is it by value or by reference, The key thing to take note of is
+    do we want to change the original value or not if yes then we use reference nor we use value. 

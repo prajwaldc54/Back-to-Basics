@@ -2,14 +2,15 @@
 #include <string>
 #include <cstdlib>
 #include <ctime> // for time
+#include <vector> // vector time
 using std::cout;
 using std::cin;
 using std::endl;
 
-void print_guess(int arr [], int count){
-    cout << "Your total number of guesses is " << count << "\n";
+void print_guess(std::vector <int> arr){
+    cout << "Your total number of guesses is " << arr.size() << "\n";
     cout << "The guesses made are: ";
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i < arr.size(); i++)
     {
         cout  << arr[i] << " ";
         }
@@ -19,8 +20,7 @@ void print_guess(int arr [], int count){
 
 void play_game(){
     int random = rand() % 99 + 1; // random number from 1 to 100
-    int number_of_guesses [101];
-    int guess_count = 0;
+    std:: vector <int> number_of_guesses;
     while (true){
     cout << "Guess the random number generated: \n";
     int guess;
@@ -29,7 +29,7 @@ void play_game(){
         cout << "Invalid input only positive numbers" << endl;  // skips invalid guess that is negative number
         continue;
     }
-    number_of_guesses[guess_count++] = guess;
+    number_of_guesses.push_back(guess);
     if (guess == random)
     {
         cout << "You got it brother!!!" << endl;
@@ -41,7 +41,7 @@ void play_game(){
     }
     
     }
-    print_guess(number_of_guesses, guess_count);
+    print_guess(number_of_guesses);
 }
 
 int main (){
