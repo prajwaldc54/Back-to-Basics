@@ -16,3 +16,7 @@
 9) Vector is pretty simple just need to be wary of some the methods then we are good. 
 10) Passing vectors to a functions is the most tricky part is it by value or by reference, The key thing to take note of is
     do we want to change the original value or not if yes then we use reference nor we use value. 
+11) Lokked into templatized arrays as well but go for vector unless specified, templatized arrays are also static but we can
+    pass them to function based on reference. 
+12) Final topic for the week range-based for loop pretty handy for loop dont need to write just give the range example shown
+    in this commit.

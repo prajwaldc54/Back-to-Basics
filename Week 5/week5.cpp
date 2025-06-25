@@ -7,61 +7,17 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void print_guess(std::vector <int> arr){
-    cout << "Your total number of guesses is " << arr.size() << "\n";
-    cout << "The guesses made are: ";
-    for (int i = 0; i < arr.size(); i++)
+void print_vector (std:: vector <int> &data){
+    data.pop_back();
+    for (int i : data)
     {
-        cout  << arr[i] << " ";
-        }
-        cout << "\n";
+        cout << i << " ";
+    }
+    cout << "\n";
     
-}
-
-void play_game(){
-    int random = rand() % 99 + 1; // random number from 1 to 100
-    std:: vector <int> number_of_guesses;
-    while (true){
-    cout << "Guess the random number generated: \n";
-    int guess;
-    cin >> guess;
-    if (guess < 0){
-        cout << "Invalid input only positive numbers" << endl;  // skips invalid guess that is negative number
-        continue;
-    }
-    number_of_guesses.push_back(guess);
-    if (guess == random)
-    {
-        cout << "You got it brother!!!" << endl;
-        break;
-    }else if (guess > random) {
-        cout << "Its a lower value than you guessed" << endl;
-    } else {
-        cout << "Its a higher value than you guessed" << endl;
-    }
-    
-    }
-    print_guess(number_of_guesses);
 }
 
 int main (){
-    srand(time(0)); // better to randomize according to time
-    cout << "Welcome to my console-based application.\n";
-     int choice;
-     do
-     {
-            cout << "Press 0 to exit or 1 to Play game:\n";
-            cin>>choice;
-            switch (choice)
-                {
-                    case 0:
-                        cout << "Thanks for playing\n";
-                        break;
-                    case 1: 
-                        play_game();
-                        break;
-    }
-     } while (choice != 0);
-     
-
+   std:: vector <int> item = {2,4,6,8,10};
+   print_vector(item); 
 }
