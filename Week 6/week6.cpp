@@ -11,7 +11,7 @@ int main (){
     // std:: string file;
     // cin >> file;
 
-    std::ofstream name("Basic.txt");
+    std::ofstream name("Basic.txt", std::ios::app);  // ios::app to append
     std::vector <std::string> vec;
     vec.push_back("Prajwal");
     vec.push_back("Manish");
