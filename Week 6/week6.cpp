@@ -1,26 +1,17 @@
 #include <iostream>
 #include <fstream> 
 #include <vector>
+#include <string>
 
 using std::cout;
 using std::cin;
 using std::endl;
 
 int main (){
-    // cout << "Enter any file you wanna create: \n";
-    // std:: string file;
-    // cin >> file;
-
-    std::ofstream name("Basic.txt", std::ios::app);  // ios::app to append
-    std::vector <std::string> vec;
-    vec.push_back("Prajwal");
-    vec.push_back("Manish");
-    vec.push_back("Rubin");
-    vec.push_back("Pankaj");
-
-    for (std::string n : vec)
-    {
-        name << n << endl;
+    std::ifstream name ("Basic.txt");
+    std::string n;
+    while (getline(name, n)){
+        cout << n << endl;
     }
     
     

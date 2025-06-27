@@ -1,32 +1,4 @@
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
-Prajwal
-Manish
-Rubin
-Pankaj
+Prajwal is a CS grad student.
+Rubin is a social media manager.
+Manish is data science intern.
+Punkaj is a football player.
