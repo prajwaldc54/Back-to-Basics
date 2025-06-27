@@ -58,7 +58,7 @@ void play_game(){
         if (!current_value >= initial_score){
             file << n<< " "<<  current_value << endl;
         } else {
-            file << n<< " "<<  initial_score << endl;
+            return;
         } 
     } else {
         file << user_name << " "<< current_value << endl;
