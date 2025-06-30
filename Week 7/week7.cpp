@@ -5,7 +5,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void swap (int a, int b){ 
+void swap (int &a, int &b){ // with ppassing by reference it persists the swap
     int temp = a;
     a = b;
     b = temp;
