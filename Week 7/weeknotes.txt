@@ -1,2 +1,9 @@
 1) Into multi-dimensional arrays and nested vectors and loops to print the multi-dimensonal arrays.
-2) Use of nested vectors is: vector <vector <int>> vec
+2) Use of nested vectors is: vector <vector <int>> vec.
+3) Something on const why is it important and when to use it, basically what it does is keep the integrity of the data making it 
+   unchangable. 
+4) Passing by value and passing by reference both are methods used to pass the values in or from the function, acoording to my
+   understanding pass by value takes up more space creating a duplicate memory space as well where as pass by reference is a 
+   more effective way where it uses less memory and changes done is done globally and if we add const to the referncing then
+   it would be more secure and effective.
+   
