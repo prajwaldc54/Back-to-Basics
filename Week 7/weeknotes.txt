@@ -1,0 +1,2 @@
+1) Into multi-dimensional arrays and nested vectors and loops to print the multi-dimensonal arrays.
+2) Use of nested vectors is: vector <vector <int>> vec
