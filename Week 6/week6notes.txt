@@ -3,3 +3,10 @@
 2) In case of cout before displaying the output the outputs follows a output stream and is kept at buffer "the waiting area" then it gets displayed on the screen.
 3) Reading from a user seems preety simple but what about reading files and working with real world data, we use a library fstream which is just like iostream but
    for files. 
+4) More into functions and types of it:
+   a) Functions: Basic function that we use almost everyday.
+   b) Method: Something that we attach to an object
+   c) Static function: Something we attach to the whole class. 
+   d) Constructor and destructor: Something that is automatically called when a object is created.
+5) Code refactoring and testing go hand in hand just be mindful of these things and also we need to focus on design as well not only solving the given problem but
+   also look into designs as well.

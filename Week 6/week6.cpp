@@ -8,6 +8,22 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+void score_board(int initial_score, std::string n, std::string user_name, int current_value){
+    std::ofstream file ("score.txt");
+    file << "\tScore Board\t" << endl;
+    file << n << " "<< initial_score << endl;
+    if (user_name == n)
+    {
+        if (!current_value >= initial_score){
+            file << n<< " "<<  current_value << endl;
+        } else {
+            return;
+        } 
+    } else {
+        file << user_name << " "<< current_value << endl;
+    }
+}
+
 void print_guess(std::vector <int> arr){
     cout << "Your total number of guesses is " << arr.size() << "\n";
     cout << "The guesses made are: ";
@@ -50,20 +66,8 @@ void play_game(){
     }
     print_guess(number_of_guesses);
     int current_value = number_of_guesses.size();
-    std::ofstream file ("score.txt");
-    file << "\tScore Board\t" << endl;
-    file << n << " "<< initial_score << endl;
-    if (user_name == n)
-    {
-        if (!current_value >= initial_score){
-            file << n<< " "<<  current_value << endl;
-        } else {
-            return;
-        } 
-    } else {
-        file << user_name << " "<< current_value << endl;
-    }
     
+    score_board(initial_score, n, user_name, current_value);
 }
 
 int main (){
