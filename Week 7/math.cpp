@@ -17,6 +17,15 @@ double area  (int a, int b, int c= 1){ // Use of function overloading and defaul
     return a*b*c;
 }
 
+double pow (int base, int expo = 1){
+    int total = 1;
+    for (int i = 0; i < expo; i++)
+    {
+        total *= base;
+    }
+    return total; 
+}
+
 int main(){
     Rectangle rec;
     rec.length = 5;
@@ -25,6 +34,7 @@ int main(){
     cout << "Area of rectangle: " << area(rec.length,rec.width) << endl;
     cout << "Area of square: " << area(rec.length) << endl;
     cout << "Area of triangle: " << area(rec.length,rec.width, 8) << endl; //default argument
-    
+    cout << "Power of exponent 3: " << pow(3,3) << endl;
+    cout << "Power of exponent 1: " << pow(3) << endl;
     return 0;
 }
