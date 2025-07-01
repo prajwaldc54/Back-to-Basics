@@ -1,9 +1,18 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 using std::cout;
 using std::cin;
 using std::endl;
+
+void swap (std::string a, std::string b){
+    std::string temp = a;
+    a = b;
+    b = temp;
+
+    cout << "First_Name: " << a << " Lastname: " << b << endl;
+}
 
 void swap (int &a, int &b){ // with ppassing by reference it persists the swap
     int temp = a;
@@ -16,9 +25,9 @@ void swap (int &a, int &b){ // with ppassing by reference it persists the swap
 int main() {
  int a = 5;
  int b = 10;
+ std::string first_name = "Prajwal";
+ std::string last_name = "Vagwan";
 
  swap(a,b);
-
- cout << "a:" << a << " b:" << b << endl;
-    
+ swap(first_name,last_name);
 }

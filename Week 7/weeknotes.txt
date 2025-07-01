@@ -6,4 +6,7 @@
    understanding pass by value takes up more space creating a duplicate memory space as well where as pass by reference is a 
    more effective way where it uses less memory and changes done is done globally and if we add const to the referncing then
    it would be more secure and effective.
-   
+5) Function overloading means using the same function name with different parameter name and type and also in "C++" particularly
+   it doesnt depend onreturn type meaning if we use different return type it is not called function overloading. 
+6) As stated function overloading is applicable for different parameter types names but not on different return type and for default
+   arguments it might be ambigious so watch out for it. 
