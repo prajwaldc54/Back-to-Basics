@@ -10,3 +10,7 @@
    it doesnt depend onreturn type meaning if we use different return type it is not called function overloading. 
 6) As stated function overloading is applicable for different parameter types names but not on different return type and for default
    arguments it might be ambigious so watch out for it. 
+7) Onto Multifile compilation have a header file, function definition file (implementation file) and a main file using these file
+   compilation we can perform a clear and consise code writing. Some things to be wary of is using IFNDEF and endif at the header
+   file and also including the header file in both the implementation and main file. 
+8) Using a flag "-c" gives us the object of the files that way we can use that and make out libraries and code hidden.

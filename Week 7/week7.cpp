@@ -11,7 +11,7 @@ void swap (std::string a, std::string b){
     a = b;
     b = temp;
 
-    cout << "First_Name: " << a << " Lastname: " << b << endl;
+    cout << "First Name: " << a << " Last Name: " << b << endl;
 }
 
 void swap (int &a, int &b){ // with ppassing by reference it persists the swap

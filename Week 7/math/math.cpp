@@ -1,30 +1,9 @@
 #include <iostream>
+#include "math.h"
 
 using std::cout;
 using std::cin;
 using std::endl;
-
-struct Rectangle {
-    int length; 
-    int width;
-};
-
-double area (int a){
-    return a*a;
-}
-
-double area  (int a, int b, int c= 1){ // Use of function overloading and default argument
-    return a*b*c;
-}
-
-double pow (int base, int expo = 1){
-    int total = 1;
-    for (int i = 0; i < expo; i++)
-    {
-        total *= base;
-    }
-    return total; 
-}
 
 int main(){
     Rectangle rec;
