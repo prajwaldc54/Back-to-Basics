@@ -10,6 +10,8 @@
         "utility": "cpp",
         "xiosbase": "cpp",
         "xstring": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp"
     }
 }
