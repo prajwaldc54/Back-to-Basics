@@ -14,3 +14,6 @@
    compilation we can perform a clear and consise code writing. Some things to be wary of is using IFNDEF and endif at the header
    file and also including the header file in both the implementation and main file. 
 8) Using a flag "-c" gives us the object of the files that way we can use that and make out libraries and code hidden.
+9) Working with makefiles helps to execute all file at once, creating a final executable file at the end, 
+10) Using namespace avoids naming conflict its good to understand but we can implement various funtions with out it for better
+   practice.
