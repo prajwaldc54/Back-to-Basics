@@ -1,2 +1,5 @@
 1) Started with using template function so that we can use it for string and integer, basically what it shows is that we can use the same function for 
    various data types not limiting to only string and if we wanted to return something we could use it on the function return type as well.
+2) Template function syntax:
+    template <typename T> 
+    generic code 
