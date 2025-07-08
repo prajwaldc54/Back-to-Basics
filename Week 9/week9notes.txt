@@ -3,3 +3,6 @@
 2) More into classes and structs basically bith are kinda similar only thing differntiating them is the access modifier present on both of them, while class
    two types of access modifiers private and public, whereas struct onlly has one that is public. Both have PODS in them. 
 3) We can start struct and class with Uppercase and also accessing data from private access provider is done using a function.
+4) More into OOP class, object, constructor and static members. As defined earlier class is a blueprint of things to come where object is the instance of the 
+   class, constructor is a specialized function  where it has types default constructor adn parameterized constructor and lastly talking about static members
+   they are memebers that which is shared acrros every memebers.
