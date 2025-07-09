@@ -8,3 +8,5 @@
    they are memebers that which is shared acrros every memebers.
 5) A look in OOP concept encapsulation where how data memebers are hidden and how can that be achieved in c++. Firstly usiing access modifiers is a good practice of 
    encapsulation and also using getters() and setters() method. With this practice we can have our data safe and secure.
+6) A dive in static data members which is basically defined as a data member that belongs to class not like other data members where every obj created makes a copy 
+   of it. And there is a unique way to prefix it and also initialize it.
