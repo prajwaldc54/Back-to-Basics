@@ -6,3 +6,5 @@
 4) More into OOP class, object, constructor and static members. As defined earlier class is a blueprint of things to come where object is the instance of the 
    class, constructor is a specialized function  where it has types default constructor adn parameterized constructor and lastly talking about static members
    they are memebers that which is shared acrros every memebers.
+5) A look in OOP concept encapsulation where how data memebers are hidden and how can that be achieved in c++. Firstly usiing access modifiers is a good practice of 
+   encapsulation and also using getters() and setters() method. With this practice we can have our data safe and secure.

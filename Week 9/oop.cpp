@@ -14,35 +14,41 @@ class User {
             return status;
         }
 
-        User (std::string n, std::string l){
-                first_name = n;
-                last_name = l;
+        User () {
+
         }
 
-        ~User (){
-            cout << "Destructor\n";
+        // User (std::string n, std::string l, std::string s){
+        //         first_name = n;
+        //         last_name = l;
+        //         status = s;
+        // }
+
+        ~User (){}
+
+        void set_status (std::string s) {
+            if (s == "Gold" || s == "Silver" || s == "Bronze"){
+                status = s;
+                cout << "Matched";
+            }else
+            cout << "It doesnt maatch the status";
         }
 }; 
 
-bool name_exists (std::vector <User> &users, User u) {
-    for (int i = 0; i < users.size(); i++)
-    {
-        if (users[i].first_name == u.first_name && users[i].last_name == u.last_name )
-        {
-            return true;
-        }
-        return false;
-        
-    }
-    
-}
+// bool person_checker (std::vector <User>& users, User& u) {
+//     for (int i = 0; i < users.size(); i++)
+//     {
+//         if (users[i].first_name == u.first_name && users[i].last_name == u.last_name && users[i].status == u.status )
+//         {
+//             return true;
+//         }
+//     }
+//      return false;
+// }
 
 int main () {
-    User user1 ("Prajwal", "D C"),user2 ("Rubin", "Adhikari"),user3 ("Pankaj", "Basnet");
-    std::vector<User> users;
-    users.push_back(user1);
-    users.push_back(user2);
-    users.push_back(user3);
-    User user4 ("Prajwal", "D C");
-    cout << "Do the names repeat " << (name_exists(users, user4)? "True" : "False") << endl;
+    User user4;
+    user4.first_name = "Prajwal"; 
+    user4.last_name = "D C";
+    user4.set_status("Silver");
 }
