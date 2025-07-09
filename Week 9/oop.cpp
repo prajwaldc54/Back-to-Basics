@@ -13,6 +13,15 @@ class User {
         std::string get_status(){  // getting data from private access modifier in a struct
             return status;
         }
+
+        User (std::string n, std::string l){
+                first_name = n;
+                last_name = l;
+        }
+
+        ~User (){
+            cout << "Destructor\n";
+        }
 }; 
 
 bool name_exists (std::vector <User> &users, User u) {
@@ -29,25 +38,11 @@ bool name_exists (std::vector <User> &users, User u) {
 }
 
 int main () {
-    User user1,user2,user3;
+    User user1 ("Prajwal", "D C"),user2 ("Rubin", "Adhikari"),user3 ("Pankaj", "Basnet");
     std::vector<User> users;
-
-    user1.first_name = "Prajwal";
-    user1.last_name = "D C";
-
-    user2.first_name = "Rubin";
-    user2.last_name = "Adhikari";
-
-    user3.first_name = "Pankaj";
-    user3.last_name = "Basnet";
-
     users.push_back(user1);
     users.push_back(user2);
     users.push_back(user3);
-
-    User user4;
-    user4.first_name = "Prajwal";
-    user4.last_name = "D C";
-    
+    User user4 ("Prajwal", "D C");
     cout << "Do the names repeat " << (name_exists(users, user4)? "True" : "False") << endl;
 }
