@@ -108,10 +108,16 @@ std::ostream& operator << (std::ostream &output, User u){
     return output;
 }
 
+std::istream& operator >> (std::istream& input, User& u){
+    input >> u.first_name >> u.last_name;
+    return input;
+}
+
 int main () {
     User user4;
-    user4.first_name = "Prajwal"; 
-    user4.last_name = "D C";
-    user4.set_status("Pearl");
+    cin >> user4;
+    // user4.first_name = "Prajwal"; 
+    // user4.last_name = "D C";
+    // user4.set_status("Pearl");
     cout << user4 << endl;
 }
