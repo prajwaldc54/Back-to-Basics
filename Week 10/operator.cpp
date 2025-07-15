@@ -89,6 +89,7 @@ class User {
         }
 
         friend std::ostream& operator << (std::ostream &output, User& u);
+        friend std::istream& operator >> (std::istream& input, User& u);
         
 }; 
 
@@ -113,14 +114,12 @@ std::ostream& operator << (std::ostream &output, User& u){
 }
 
 std::istream& operator >> (std::istream& input, User& u){
-    input >> u.first_name >> u.last_name;
+    input >> u.first_name >> u.last_name >> u.status;
     return input;
 }
 
 int main () {
     User user4;
-    user4.first_name = "Prajwal"; 
-    user4.last_name = "D C";
-    user4.set_status("Gold");
+    cin >> user4;
     cout << user4 << endl;
 }
