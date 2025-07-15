@@ -87,6 +87,9 @@ class User {
             }else
             cout << "It doesnt match the status\n";
         }
+
+        friend std::ostream& operator << (std::ostream &output, User& u);
+        
 }; 
 
 int User::user_count = 000;
@@ -103,8 +106,9 @@ int User::user_count = 000;
 //      return false;
 // }
 
-std::ostream& operator << (std::ostream &output, User u){
-    output << "First Name: " << u.first_name << " Last Name: " << u.last_name << endl;
+std::ostream& operator << (std::ostream &output, User& u){
+    output << "First Name: " << u.first_name << " Last Name: " << u.last_name 
+    << " Status:" << u.status << endl;
     return output;
 }
 
@@ -115,9 +119,8 @@ std::istream& operator >> (std::istream& input, User& u){
 
 int main () {
     User user4;
-    cin >> user4;
-    // user4.first_name = "Prajwal"; 
-    // user4.last_name = "D C";
-    // user4.set_status("Pearl");
+    user4.first_name = "Prajwal"; 
+    user4.last_name = "D C";
+    user4.set_status("Gold");
     cout << user4 << endl;
 }
