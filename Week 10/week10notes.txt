@@ -1,0 +1,10 @@
+1) Operaor overloading new concept has a different syntax is used for not only arithemetic operator but also for 
+   for insertion meaning (cin and cout). 
+2) Syntax: 
+    Return type operator +(or any operator){}
+3) We got know and used getters and setters to manipulate private data members but using friend function is also
+   a good practice and we can also use operator overloading in a friend function which enables us to activate all
+   the data mebers private and public.
+4) Syntax: 
+    It is basically a method that uses friend as a keyword that enables access to private data members
+    friend return type name () {}
